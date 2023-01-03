@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculando';
+  numero1!:number;
+  numero2!:number;
+  resultado!:number;
+  seleccionar: string = '(No eligio operacion)';
 }
